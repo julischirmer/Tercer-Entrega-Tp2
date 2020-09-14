@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Academia</title>
+    </head>
+<body>
+    <form id="bodyForm" runat="server">
+        <div id="navbar">
+            <ul>
+                <li> <a href="Usuarios.aspx">Usuarios</a></li>
+                <li> <a href="Especialidades.aspx">Especialidades</a></li>
+                <li> <a href="Planes.aspx">Planes</a></li>
+            </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
